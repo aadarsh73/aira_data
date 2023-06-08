@@ -1,0 +1,6 @@
+constraint
+
+1. The classes allotted to each section should either be in 1st half or second half
+2. Labs can't be scheduled in the same half as classes
+
+ 

@@ -1,0 +1,46 @@
+Registration Number,Seniority Level,Department,First Name    ,Middle Name,Last Name      ,Abbreviation,Email                         ,Phone
+EMP001             ,1,ICT       ,Anusha ,           ,Hegde          ,AH,nvs.reddy@manipal.edu         ,1
+EMP002             ,1,ICT       ,Santosha,           ,Rao  ,SR,prema.kv@manipal.edu          ,2
+EMP003             ,1,ICT       ,Sirish,           ,Shetty         ,SS,dinesh.acharya@manipal.edu    ,3
+EMP004             ,1,ICT       ,Sangeeta ,           ,T S,STS,k.moorthi@manipal.edu         ,4
+EMP005             ,1,ICT       ,Arjun ,           ,CV,ACV,ng.kini@manipal.edu           ,5
+EMP006             ,0,ICT       ,Chandrakala,           ,,C ,renuka.prabhu@manipal.edu     ,6
+EMP007             ,1,ICT       ,Anuradha,,Rao ,AR,asha.nayak@manipal.edu        ,7
+EMP008             ,1,ICT       ,Poornalatha,           ,G              ,PG,geetha.maiya@manipal.edu      ,8
+EMP009             ,1,ICT       ,Smitha ,N,Pai            ,SNP,harish.sv@manipal.edu         ,9
+EMP010             ,2,ICT       ,Santosh ,           ,Kamath         ,SK,pcs.swamy@manipal.edu         ,10
+EMP011             ,3,ICT       ,Aiswarya,           ,,A,hema.shama@manipal.edu        ,11
+EMP012             ,2,ICT       ,k,Rajesh ,Rao ,KRR,kv.bhat@manipal.edu           ,12
+EMP013             ,2,ICT       ,Manjula,           ,CB,MCB,srikanth.prabhu@manipal.edu   ,13
+EMP014             ,2,ICT       ,Raghavendra,           ,Ganiga,RG ,mamtha.bc@manipal.edu         ,14
+EMP015             ,2,ICT       ,Raviraj,           ,Holla,RH,vijay.arjun@manipal.edu       ,15
+EMP016             ,3,ICT       ,Diana,           ,Olivia,DO,narendra.vg@manipal.edu       ,16
+EMP017             ,3,ICT       ,Sumana,A,C,SAC,shiva.prasad@manipal.edu      ,17
+EMP018             ,3,ICT       ,Sucheta,           ,Kolekar,SK,giri.shakarad@manipal.edu     ,18
+EMP019             ,3,ICT       ,Pooja,,Kini,PK,sri.manmohan@manipal.edu      ,19
+EMP020             ,3,ICT       ,Swathi,B,P ,SBP,rajesh.g@manipal.edu          ,20
+EMP021             ,3,ICT       ,Krishna,,Prakasha,KP,suma.d@manipal.edu            ,21
+EMP022             ,4,ICT       ,Akshay ,,M,AM,gururaj.bijur@manipal.edu     ,22
+EMP023             ,4,ICT       ,Ajitha ,,Shenoy,AS,shanthi.moorkoth@manipal.edu  ,23
+EMP024             ,4,ICT       ,Chethan,,Sharma,CS,kishore.b@manipal.edu         ,24
+EMP025             ,4,ICT       ,Sanjay,,Singh,SS,chidananda.acharya@manipal.edu,25
+EMP026             ,4,ICT       ,Giridhar,,Kamath         ,GK,praveen.pai@manipal.edu       ,26
+EMP027             ,4,ICT       ,Radhika,M ,Pai            ,RMP,ashwath.rao@manipal.edu       ,27
+EMP028             ,4,ICT       ,Rajesh,,Pai            ,RP,govardhan.hedge@manipal.edu   ,28
+EMP029             ,4,ICT       ,Anju,,,A,roshan.jathanna@manipal.edu   ,29
+EMP030             ,4,ICT       ,Pooja,,S,PS,tanuja.s@manipal.edu          ,30
+EMP031             ,4,ICT       ,A,,Vittaleswar,AV,archana.kumar@manipal.edu     ,31
+EMP032             ,4,ICT       ,Nisha,P,Shetty         ,NPS,prakash.aithal@manipal.edu    ,32
+EMP033             ,4,ICT       ,Manasa,K,J,MKJ,cenitta.d@manipal.edu         ,33
+EMP034             ,4,ICT       ,Divya,,S,DS,manoj.r@manipal.edu           ,34
+EMP035             ,4,ICT       ,Vibha,,,V,anjana.s@manipal.edu          ,35
+EMP036             ,4,ICT       ,Jayashree,,,J,murali.sn@manipal.edu         ,36
+EMP037             ,5,ICT       ,Rashmi,N,R ,RNR,shyam.karanth@manipal.edu     ,37
+EMP038             ,4,ICT       ,Raghavendra,,Achar,RA,raji.krish@manipal.edu        ,38
+EMP039             ,5,ICT       ,K,Arthi ,Bhat,KAB,sucha.shetty@manipal.edu      ,39
+EMP040             ,5,ICT       ,Akshay ,K,C,AKC,radhika.kamath@manipal.edu    ,40
+EMP041             ,5,ICT       ,Ipsita,,Upasana,IU,manjunath.kn@manipal.edu      ,41
+EMP042             ,5,ICT       ,Shaistha,,,S,ganeshbabu.c@manipal.edu      ,42
+EMP043             ,5,ICT       ,Veena ,K,M,VKM,priya.kamath@manipal.edu      ,43
+EMP044             ,5,ICT       ,Chetana,,Poojari,CP,deepthi.s@manipal.edu         ,44
+EMP045,5,ICT       ,Manjula,,Shenoy,MS,fwegegw,45
