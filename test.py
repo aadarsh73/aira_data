@@ -174,7 +174,7 @@ it3a= {
 }
 
 it3b= {
-    "section": "it3A",
+    "section": "IT3B",
     "location" : 216,
     "teachers_initial" : ["KK", "JY", "RN", "CK", "RA"],
     "courses_initial" : ["Maths", "DS", "DSD", "OOP", "PDC"],
@@ -279,9 +279,11 @@ for x in [it7a,it7b,cce7a,cce7b,pe7]:
 
 # print(len(teacher), len(location), len(course_code))
 #it5a,it5b,cce5a,cce5b,pe1
-for x in [it5a,it5b,cce5a,cce5b,pe1]:
+cce5a
+it5a
+for x in [it5b,cce5b,pe1]:
     try :
-        a = x["lab_locations"]
+        z = x["lab_locations"]
         for a in x["teachers_initial"]:
             reg_no = df.loc[df['First Name'] == a, 'Registration Number'].iloc[0]
             teacher.append(reg_no)
@@ -350,76 +352,79 @@ for x in [it5a,it5b,cce5a,cce5b,pe1]:
             section.append(x["section"])
 
 print(len(teacher), len(location), len(course_code))
+print(teacher)
+print(location)
+print(course_code)
 
-# for x in [it3a,it3b,cce3a,cce3b]:
-#     try :
-#         a = x["lab_locations"]
-#         for a in x["teachers_initial"]:
-#             reg_no = df.loc[df['First Name'] == a, 'Registration Number'].iloc[0]
-#             teacher.append(reg_no)
-#             section.append(x["section"])
-#         for a in x["courses_initial"]:
-#             course_name.append(a)
-#             programme.append("B.Tech.")
-#             type.append("Theory")
-#             sem.append(3)
-#             course_abbreviation.append(a)
-#         for a in x["courses_codes"]:
-#             course_code.append(a)
-#             course_department.append(a[:3])
-#         for a in x["course_count"]:
-#             course_credits.append(a)
-#             course_type.append("Mandatory")
-#             course_max.append(70)
-#             course_duration.append(60)
-#             extra.append("")
-#             location.append(x["location"])
+for x in [it3a,it3b,cce3a]:
+    try :
+        a = x["lab_locations"]
+        for a in x["teachers_initial"]:
+            reg_no = df.loc[df['First Name'] == a, 'Registration Number'].iloc[0]
+            teacher.append(reg_no)
+            section.append(x["section"])
+        for a in x["courses_initial"]:
+            course_name.append(a)
+            programme.append("B.Tech.")
+            type.append("Theory")
+            sem.append(3)
+            course_abbreviation.append(a)
+        for a in x["courses_codes"]:
+            course_code.append(a)
+            course_department.append(a[:3])
+        for a in x["course_count"]:
+            course_credits.append(a)
+            course_type.append("Mandatory")
+            course_max.append(70)
+            course_duration.append(60)
+            extra.append("")
+            location.append(x["location"])
         
-#         for a in x["labs"]:
-#             course_duration.append(180)
-#             course_max.append(35)
-#             type.append("Lab")
-#             programme.append("B.Tech.")
-#             sem.append(3)
-#             course_credits.append(2)
-#             course_type.append("Mandatory")
-#             course_name.append(a)
-#             course_abbreviation.append(a.replace(" ", ""))
-#             extra.append("")
-#             course_department.append("ICT")
-#             index = a.find(" ")
-#             if index != -1:
-#                 characters_before_space = a[:index]
-#             else:
-#                 characters_before_space = a
-#             course_code.append(characters_before_space + x["courses_codes"][0][4])
-#         for a in x["lab_faculty_initials"]:
-#             reg_no = df.loc[df['First Name'] == a, 'Registration Number'].iloc[0]
-#             teacher.append(reg_no) 
-#             section.append(x["section"])
-#         for a in x["lab_locations"]:
-#             location.append(a)
-#     except:
-#         for a in x["courses_initial"]:
-#             course_name.append(a)
-#             course_abbreviation.append(a)
-#         for a in x["courses_codes"]:
-#             course_code.append(a)
-#             sem.append(3)
-#             course_department.append(a[:3])
-#         for a in x["course_count"]:
-#             programme.append("B.Tech.")
-#             course_credits.append(a)
-#             course_type.append("Programme Elective")
-#             course_max.append(70)
-#             type.append("Theory")
-#             course_duration.append(60)
-#             extra.append("")
-#             location.append(x["location"])
-#         for a in x["teachers_initial"]:
-#             reg_no = df.loc[df['First Name'] == a, 'Registration Number'].iloc[0]
-#             teacher.append(reg_no)
-#             section.append(x["section"])
+        for a in x["labs"]:
+            course_duration.append(180)
+            course_max.append(35)
+            type.append("Lab")
+            programme.append("B.Tech.")
+            sem.append(3)
+            course_credits.append(2)
+            course_type.append("Mandatory")
+            course_name.append(a)
+            course_abbreviation.append(a.replace(" ", ""))
+            extra.append("")
+            course_department.append("ICT")
+            index = a.find(" ")
+            if index != -1:
+                characters_before_space = a[:index]
+            else:
+                characters_before_space = a
+            course_code.append(characters_before_space + x["courses_codes"][0][4])
+        for a in x["lab_faculty_initials"]:
+            reg_no = df.loc[df['First Name'] == a, 'Registration Number'].iloc[0]
+            teacher.append(reg_no) 
+            section.append(x["section"])
+        for a in x["lab_locations"]:
+            location.append(a)
+    except:
+        for a in x["courses_initial"]:
+            course_name.append(a)
+            course_abbreviation.append(a)
+        for a in x["courses_codes"]:
+            course_code.append(a)
+            sem.append(3)
+            course_department.append(a[:3])
+        for a in x["course_count"]:
+            programme.append("B.Tech.")
+            course_credits.append(a)
+            course_type.append("Programme Elective")
+            course_max.append(70)
+            type.append("Theory")
+            course_duration.append(60)
+            extra.append("")
+            location.append(x["location"])
+        for a in x["teachers_initial"]:
+            reg_no = df.loc[df['First Name'] == a, 'Registration Number'].iloc[0]
+            teacher.append(reg_no)
+            section.append(x["section"])
 print(len(teacher), len(location), len(course_code))
 
 building_name = []
